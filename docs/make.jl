@@ -14,5 +14,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/algebrato/MyPkg.jl",
+    repo="https://github.com/algebrato/MyPkg.jl",
 )
