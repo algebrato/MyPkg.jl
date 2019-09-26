@@ -19,9 +19,9 @@ jobs:
   include:
     - stage: Documentation
       julia: 1.2
-      script: julia --project=docs -e '
+      script: julia --project=docs/ -e '
           using Pkg;
-          Pkg.develop(PackageSpec(path=pwd()));
+          Pkg.develop(PackageSpec(url="https://github.com/algebrato/MyPkg.jl")   );
           Pkg.instantiate();
           include("docs/make.jl");'
       after_success: skip
