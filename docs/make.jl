@@ -9,7 +9,7 @@ makedocs(;
     ],
     repo="https://github.com/algebrato/MyPkg.jl/blob/{commit}{path}#L{line}",
     sitename="MyPkg.jl",
-    authors="Stefano Mandelli, Maurizio Tomasi, Silvia Caprioli, Federico Incardona",
+    authors="Stefano Mandelli",
 )
 
 deploydocs(;
